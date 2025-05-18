@@ -1,0 +1,151 @@
+body,
+div,
+h1,
+h2,
+p,
+button,
+input {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+  font-size: 16px;
+  color: #2e2759;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.status {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.rank {
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e7e8f3;
+}
+
+.ok {
+  height: 100vh;
+}
+
+.ok-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ok-message {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.pictures {
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 35px;
+}
+
+.buttons {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons button {
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #666db2;
+  color: #e7e8f3;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.header-name {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-bottom: 20px;
+}
+
+.card {
+  background-color: #e7e8f3;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 3px;
+  gap: 3px;
+}
+
+.card-title {
+  color: #2e2759;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-description {
+  color: #2e2759;
+  font-size: 1rem;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+
+.centered {
+  margin-left: 5%;
+  width: 90% !important;
+}
+
+.upload-container a {
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #666db2;
+  color: #e7e8f3;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: center;
+}
